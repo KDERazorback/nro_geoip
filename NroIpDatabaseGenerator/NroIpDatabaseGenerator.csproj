@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>nroipdbgen</AssemblyName>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SQL\Scripts\CreateTable.sql" />
+    <None Remove="SQL\Scripts\MySQL\DropTable.sql" />
+    <None Remove="SQL\Scripts\MySQL\InsertBulkRecords\Header.sql" />
+    <None Remove="SQL\Scripts\MySQL\InsertBulkRecords\RecordData.sql" />
+    <None Remove="SQL\Scripts\MySQL\InsertBulkRecords\Tail.sql" />
+    <None Remove="SQL\Scripts\MySQL\InsertSingleRecord.sql" />
+    <None Remove="SQL\Scripts\MySQL\TableExistsCheck.sql" />
+    <None Remove="SQL\Scripts\MySQL\TruncateTable.sql" />
+    <None Remove="SQL\Scripts\SQLite\CreateTable.sql" />
+    <None Remove="SQL\Scripts\SQLite\DropTable.sql" />
+    <None Remove="SQL\Scripts\SQLite\InsertBulkRecords\Header.sql" />
+    <None Remove="SQL\Scripts\SQLite\InsertBulkRecords\RecordData.sql" />
+    <None Remove="SQL\Scripts\SQLite\InsertBulkRecords\Tail.sql" />
+    <None Remove="SQL\Scripts\SQLite\InsertSingleRecord.sql" />
+    <None Remove="SQL\Scripts\SQLite\TableExistsCheck.sql" />
+    <None Remove="SQL\Scripts\SQLite\TruncateTable.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="SQL\Scripts\MySQL\CreateTable.sql" />
+    <EmbeddedResource Include="SQL\Scripts\MySQL\DropTable.sql" />
+    <EmbeddedResource Include="SQL\Scripts\MySQL\InsertBulkRecords\Header.sql" />
+    <EmbeddedResource Include="SQL\Scripts\MySQL\InsertBulkRecords\RecordData.sql" />
+    <EmbeddedResource Include="SQL\Scripts\MySQL\InsertBulkRecords\Tail.sql" />
+    <EmbeddedResource Include="SQL\Scripts\MySQL\InsertSingleRecord.sql" />
+    <EmbeddedResource Include="SQL\Scripts\MySQL\TableExistsCheck.sql" />
+    <EmbeddedResource Include="SQL\Scripts\MySQL\TruncateTable.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\CreateTable.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\DropTable.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\InsertBulkRecords\Header.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\InsertBulkRecords\RecordData.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\InsertBulkRecords\Tail.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\InsertSingleRecord.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\TableExistsCheck.sql" />
+    <EmbeddedResource Include="SQL\Scripts\SQLite\TruncateTable.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="com.razorsoftware.logging.core" Version="1.0.4.6-beta" />
+    <PackageReference Include="com.razorsoftware.SettingsLib.Core" Version="1.0.0" />
+    <PackageReference Include="FluentFTP" Version="32.3.2" />
+    <PackageReference Include="MySqlConnector" Version="0.63.1" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.112.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="EULA.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

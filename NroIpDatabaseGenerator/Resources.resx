@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EULA" xml:space="preserve">
+    <value>End-User License Agreement ("Agreement")  
+========================================
+
+Last updated: April 09, 2020
+
+Please read this End-User License Agreement carefully before clicking the "I
+Agree" button, downloading or using NRO Geolocation DB Generator.
+
+Interpretation and Definitions  
+==============================
+
+Interpretation  
+--------------
+
+The words of which the initial letter is capitalized have meanings defined
+under the following conditions.
+
+The following definitions shall have the same meaning regardless of whether
+they appear in singular or in plural.
+
+Definitions  
+-----------
+
+For the purposes of this End-User License Agreement:
+
+  * Agreement means this End-User License Agreement that forms the entire
+    agreement between You and the Company regarding the use of the
+    Application.
+  * Application means the software program provided by the Company downloaded
+    by You to a Device, named NRO Geolocation DB Generator
+  * Company (referred to as either "the Company", "We", "Us" or "Our" in this
+    Agreement) refers to RazorSoftware.dev.
+  * Content refers to content such as text, images, or other information that
+    can be posted, uploaded, linked to or otherwise made available by You,
+    regardless of the form of that content.
+  * Country refers to: Mexico
+  * Device means any device that can access the Application such as a
+    computer, a cellphone or a digital tablet.
+  * Third-Party Services means any services or content (including data,
+    information, applications and other products services) provided by a
+    third-party that may be displayed, included or made available by the
+    Application.
+  * You means the individual accessing or using the Application or the
+    company, or other legal entity on behalf of which such individual is
+    accessing or using the Application, as applicable.
+
+Acknowledgement  
+===============
+
+By clicking the "I Agree" button, downloading or using the Application, You
+are agreeing to be bound by the terms and conditions of this Agreement. If You
+do not agree to the terms of this Agreement, do not click on the "I Agree"
+button, do not download or do not use the Application.
+
+This Agreement is a legal document between You and the Company and it governs
+your use of the Application made available to You by the Company.
+
+The Application is licensed, not sold, to You by the Company for use strictly
+in accordance with the terms of this Agreement.
+
+You represent that you are over the age of 18. The Company does not target its
+Content to children or teenagers under 18, and the Company does not permit any
+user under 18 for using the Application.
+
+License  
+=======
+
+Scope of License  
+----------------
+
+The Company grants You a revocable, non-exclusive, non-transferable, limited
+license to download, install and use the Application strictly in accordance
+with the terms of this Agreement.
+
+The license that is granted to You by the Company is solely for your personal,
+non-commercial purposes strictly in accordance with the terms of this
+Agreement.
+
+License Restrictions  
+--------------------
+
+You agree not to, and You will not permit others to:
+
+  * Remove, alter or obscure any proprietary notice (including any notice of
+    copyright or trademark) of The Company or its affiliates, partners,
+    suppliers or the licensors of the Application.
+  * Use the databases generated by the Application for other purposes not
+    intended or granted specifically by The Company.
+  * Sell, redistribute, share, or publish the Application and the generated
+    databases without permission by The Company.
+  * Violate, or infringe the terms of usage for the various statistics provided by 
+    the Number Resource Organization group, and its affiliates,
+    including but not limited to AFRINIC, ARIN, APNIC, LACNIC and RIPE NCC.
+
+Third-Party Services  
+====================
+
+The Application may display, include or make available third-party content
+(including data, information, applications and other products services) or
+provide links to third-party websites or services.
+
+You acknowledge and agree that the Company shall not be responsible for any
+Third-party Services, including their accuracy, completeness, timeliness,
+validity, copyright compliance, legality, decency, quality or any other aspect
+thereof. The Company does not assume and shall not have any liability or
+responsibility to You or any other person or entity for any Third-party
+Services.
+
+You must comply with applicable Third parties' Terms of agreement when using
+the Application. Third-party Services and links thereto are provided solely as
+a convenience to You and You access and use them entirely at your own risk and
+subject to such third parties' Terms and conditions.
+
+Term and Termination  
+====================
+
+This Agreement shall remain in effect until terminated by You or the Company.
+
+The Company may, in its sole discretion, at any time and for any or no reason,
+suspend or terminate this Agreement with or without prior notice.
+
+This Agreement will terminate immediately, without prior notice from the
+Company, in the event that you fail to comply with any provision of this
+Agreement. You may also terminate this Agreement by deleting the Application
+and all copies thereof from your Device or from your computer.
+
+Upon termination of this Agreement, You shall cease all use of the Application
+and delete all copies of the Application from your Device.
+
+Termination of this Agreement will not limit any of the Company's rights or
+remedies at law or in equity in case of breach by You (during the term of this
+Agreement) of any of your obligations under the present Agreement.
+
+Indemnification  
+===============
+
+You agree to indemnify and hold the Company and its parents, subsidiaries,
+affiliates, officers, employees, agents, partners and licensors (if any)
+harmless from any claim or demand, including reasonable attorneys' fees, due
+to or arising out of your: (a) use of the Application; (b) violation of this
+Agreement or any law or regulation; or (c) violation of any right of a third
+party.
+
+No Warranties  
+=============
+
+The Application is provided to You "AS IS" and "AS AVAILABLE" and with all
+faults and defects without warranty of any kind. You agree to be the only 
+responsible for the use you give to this Application, as well as the sole
+responsible for the protection of the databases generated by it, ensuring they
+dont be used for other purposes not intended by The Company.
+To the maximum extent permitted under applicable law, the Company, on its own
+behalf and on behalf of its affiliates and its and their respective licensors
+and service providers, expressly disclaims all warranties, whether express, implied,
+statutory or otherwise, with respect to the Application, including all implied
+warranties of merchantability, fitness for a particular purpose, title and
+non-infringement, and warranties that may arise out of course of dealing,
+course of performance, usage or trade practice. Without limitation to the
+foregoing, the Company provides no warranty or undertaking, and makes no
+representation of any kind that the Application will meet your requirements,
+achieve any intended results, be compatible or work with any other software,
+applications, systems or services, operate without interruption, meet any
+performance or reliability standards or be error free or that any errors or
+defects can or will be corrected.
+
+Without limiting the foregoing, neither the Company nor any of the company's
+provider makes any representation or warranty of any kind, express or implied:
+(i) as to the operation or availability of the Application, or the
+information, content, and materials or products included thereon; (ii) that
+the Application will be uninterrupted or error-free; (iii) as to the accuracy,
+reliability, or currency of any information or content provided through the
+Application; or (iv) that the Application, its servers, the content, or
+e-mails sent from or on behalf of the Company are free of viruses, scripts,
+trojan horses, worms, malware, timebombs or other harmful components.
+
+Some jurisdictions do not allow the exclusion of certain types of warranties
+or limitations on applicable statutory rights of a consumer, so some or all of
+the above exclusions and limitations may not apply to You. But in such a case
+the exclusions and limitations set forth in this section 11 shall be applied
+to the greatest extent enforceable under applicable law. To the extent any
+warranty exists under law that cannot be disclaimed, the Company shall be
+solely responsible for such warranty.
+
+Limitation of Liability  
+=======================
+
+Notwithstanding any damages that You might incur, the entire liability of the
+Company and any of its suppliers under any provision of this Agreement and
+your exclusive remedy for all of the foregoing shall be limited to the amount
+actually paid by You for the Application or through the Application.
+
+To the maximum extent permitted by applicable law, in no event shall the
+Company or its suppliers be liable for any special, incidental, indirect, or
+consequential damages whatsoever (including, but not limited to, damages for
+loss of profits, loss of data or other information, for business interruption,
+for personal injury, loss of privacy arising out of or in any way related to
+the use of or inability to use the Application, third-party software and/or
+third-party hardware used with the Application, or otherwise in connection
+with any provision of this Agreement), even if the Company or any supplier has
+been advised of the possibility of such damages and even if the remedy fails
+of its essential purpose.
+
+Some states/jurisdictions do not allow the exclusion or limitation of
+incidental or consequential damages, so the above limitation or exclusion may
+not apply to You.
+
+Severability and Waiver  
+=======================
+
+Severability  
+------------
+
+If any provision of this Agreement is held to be unenforceable or invalid,
+such provision will be changed and interpreted to accomplish the objectives of
+such provision to the greatest extent possible under applicable law and the
+remaining provisions will continue in full force and effect.
+
+Waiver  
+------
+
+Except as provided herein, the failure to exercise a right or to require
+performance of an obligation under this Agreement shall not effect a party's
+ability to exercise such right or require such performance at any time
+thereafter nor shall be the waiver of a breach constitute a waiver of any
+subsequent breach.
+
+Product Claims  
+==============
+
+The Company does not make any warranties concerning the Application. To the
+extent You have any claim arising from or relating to your use of the
+Application, the Company is responsible for addressing any such claims, which
+may include, but not limited to: (i) any product liability claims; (ii) any
+claim that the Application fails to conform to any applicable legal or
+regulatory requirement; and (iii) any claim arising under consumer protection,
+or similar legislation.
+
+United States Legal Compliance  
+==============================
+
+You represent and warrant that (i) You are not located in a country that is
+subject to the United States government embargo, or that has been designated
+by the United States government as a "terrorist supporting" country, and (ii)
+You are not listed on any United States government list of prohibited or
+restricted parties.
+
+Changes to this Agreement  
+=========================
+
+The Company reserves the right, at its sole discretion, to modify or replace
+this Agreement at any time. If a revision is material we will provide at least
+30 days' notice prior to any new terms taking effect. What constitutes a
+material change will be determined at the sole discretion of the Company.
+
+By continuing to access or use the Application after any revisions become
+effective, You agree to be bound by the revised terms. If You do not agree to
+the new terms, You are no longer authorized to use the Application.
+
+Governing Law  
+=============
+
+The laws of the Country, excluding its conflicts of law rules, shall govern
+this Agreement and your use of the Application. Your use of the Application
+may also be subject to other local, state, national, or international laws.
+
+Entire Agreement  
+================
+
+The Agreement constitutes the entire agreement between You and the Company
+regarding your use of the Application and supersedes all prior and
+contemporaneous written or oral agreements between You and the Company.
+
+You may be subject to additional terms and conditions that apply when You use
+or purchase other Company's services, which the Company will provide to You at
+the time of such use or purchase.
+
+Contact Us  
+==========
+
+If you have any questions about this Agreement, You can contact Us:
+
+  * By email: contact@RazorSoftware.dev</value>
+  </data>
+  <data name="EULA_Redacted" xml:space="preserve">
+    <value>========================================
+End-User License Agreement ("Agreement")  
+========================================
+
+Last updated: April 09, 2020
+
+Please read this End-User License Agreement carefully before accepting it, and using NRO Geolocation
+DB Generator.
+
+Acknowledgement  
+===============
+
+By typing "I Agree" button, downloading or using the Application, You are agreeing to be bound by the
+terms and conditions of this Agreement. If You do not agree to the terms of this Agreement,
+do not type "I Agree", do not download or do not use the Application.
+
+This Agreement is a legal document between You and RazorSoftware.dev and it governs your use of the
+Application made available to You by RazorSoftware.dev.
+The Application is licensed, not sold, to You by RazorSoftware.dev for use strictly in accordance with the
+terms of this Agreement.
+
+You represent that you are over the age of 18. RazorSoftware.dev does not target its Content to children
+or teenagers under 18, and RazorSoftware.dev does not permit any user under 18 for using the Application.
+
+License  
+=======
+
+Scope of License  
+----------------
+
+RazorSoftware.dev grants You a revocable, non-exclusive, non-transferable, limited license to download,
+install and use the Application strictly in accordance with the terms of this Agreement.
+The license that is granted to You by RazorSoftware.dev is solely for your personal, non-commercial purposes
+strictly in accordance with the terms of this Agreement.
+
+License Restrictions  
+--------------------
+
+You agree not to, and You will not permit others to:
+
+  * Remove, alter or obscure any proprietary notice (including any notice of copyright or trademark) 
+    of RazorSoftware.dev or its affiliates, partners, suppliers or the licensors of the Application.
+  * Use the databases generated by the Application for other purposes not intended or granted specifically
+    by RazorSoftware.dev.
+  * Sell, redistribute, share, or publish the Application and the generated databases without permission
+    by RazorSoftware.dev.
+  * Violate, or infringe the terms of usage for the various statistics provided by 
+    the Number Resource Organization group, and its affiliates, including but not limited to AFRINIC,
+    ARIN, APNIC, LACNIC and RIPE NCC.
+
+Term and Termination  
+====================
+
+This Agreement shall remain in effect until terminated by You or RazorSoftware.dev.
+RazorSoftware.dev may, in its sole discretion, at any time and for any or no reason, suspend or terminate
+this Agreement with or without prior notice.
+This Agreement will terminate immediately, without prior notice from RazorSoftware.dev, in the event that
+you fail to comply with any provision of this Agreement. You may also terminate this Agreement by deleting
+the Application and all copies thereof from your Device or from your computer.
+Upon termination of this Agreement, You shall cease all use of the Application and delete all copies of
+the Application from your Device.
+
+Indemnification  
+===============
+
+You agree to indemnify and hold RazorSoftware.dev and its parents, subsidiaries, affiliates, officers,
+employees, agents, partners and licensors (if any) harmless from any claim or demand, including reasonable
+attorneys' fees, due to or arising out of your: (a) use of the Application; (b) violation of this
+Agreement or any law or regulation; or (c) violation of any right of a third party.
+
+
+No Warranties  
+=============
+
+The Application is provided to You "AS IS" and "AS AVAILABLE" and with all
+faults and defects without warranty of any kind. You agree to be the only responsible for the use you give to
+this Application, as well as the sole responsible for the protection of the databases generated by it,
+ensuring they dont be used for other purposes not intended by RazorSoftware.dev.
+
+Limitation of Liability  
+=======================
+
+Notwithstanding any damages that You might incur, the entire liability of RazorSoftware.dev and any of its
+suppliers under any provision of this Agreement and your exclusive remedy for all of the foregoing shall be
+limited to the amount actually paid by You for the Application or through the Application.
+
+This is just a redacted extract of the EULA for this application. For the FULL EULA refer to the Application
+installation or extraction directory. If there is no full EULA present on the Application installation or
+extraction directory stop using the Application immediately. If you fail to do so, you explicitly agree to
+the Terms and Conditions originally set by RazorSoftware.dev. and which can be found at 
+https://razorsoftware.dev/licenses/NRO_Geolocation_DB_Generator.txt
+
+If you cannot read the FULL EULA, or the information is trimmed by the Terminal or Console you are viewing
+this, you shall review the FULL EULA located at the Application installation or extraction directory before
+typing "I Agree".</value>
+  </data>
+  <data name="IsoAlpha2CountryCodes" xml:space="preserve">
+    <value>Afghanistan,AF
+Falkland Islands,AX
+Albania,AL
+Algeria,DZ
+American Samoa,AS
+Andorra,AD
+Angola,AO
+Anguilla,AI
+Antarctica,AQ
+Antigua and Barbuda,AG
+Argentina,AR
+Armenia,AM
+Aruba,AW
+Australia,AU
+Austria,AT
+Azerbaijan,AZ
+Bahamas,BS
+Bahrain,BH
+Bangladesh,BD
+Barbados,BB
+Belarus,BY
+Belgium,BE
+Belize,BZ
+Benin,BJ
+Bermuda,BM
+Bhutan,BT
+"Bolivia, Plurinational State of",BO
+"Bonaire, Sint Eustatius and Saba",BQ
+Bosnia and Herzegovina,BA
+Botswana,BW
+Bouvet Island,BV
+Brazil,BR
+British Indian Ocean Territory,IO
+Brunei Darussalam,BN
+Bulgaria,BG
+Burkina Faso,BF
+Burundi,BI
+Cambodia,KH
+Cameroon,CM
+Canada,CA
+Cape Verde,CV
+Cayman Islands,KY
+Central African Republic,CF
+Chad,TD
+Chile,CL
+China,CN
+Christmas Island,CX
+Cocos (Keeling) Islands,CC
+Colombia,CO
+Comoros,KM
+Congo,CG
+"Congo, the Democratic Republic of the",CD
+Cook Islands,CK
+Costa Rica,CR
+Cote d'Ivoire,CI
+Croatia,HR
+Cuba,CU
+Curacao,CW
+Cyprus,CY
+Czech Republic,CZ
+Denmark,DK
+Djibouti,DJ
+Dominica,DM
+Dominican Republic,DO
+Ecuador,EC
+Egypt,EG
+El Salvador,SV
+Equatorial Guinea,GQ
+Eritrea,ER
+Estonia,EE
+Ethiopia,ET
+Falkland Islands (Malvinas),FK
+Faroe Islands,FO
+Fiji,FJ
+Finland,FI
+France,FR
+French Guiana,GF
+French Polynesia,PF
+French Southern Territories,TF
+Gabon,GA
+Gambia,GM
+Georgia,GE
+Germany,DE
+Ghana,GH
+Gibraltar,GI
+Greece,GR
+Greenland,GL
+Grenada,GD
+Guadeloupe,GP
+Guam,GU
+Guatemala,GT
+Guernsey,GG
+Guinea,GN
+Guinea-Bissau,GW
+Guyana,GY
+Haiti,HT
+Heard Island and McDonald Islands,HM
+Holy See (Vatican City State),VA
+Honduras,HN
+Hong Kong,HK
+Hungary,HU
+Iceland,IS
+India,IN
+Indonesia,ID
+"Iran, Islamic Republic of",IR
+Iraq,IQ
+Ireland,IE
+Isle of Man,IM
+Israel,IL
+Italy,IT
+Jamaica,JM
+Japan,JP
+Jersey,JE
+Jordan,JO
+Kazakhstan,KZ
+Kenya,KE
+Kiribati,KI
+"Korea, Democratic People's Republic of",KP
+"Korea, Republic of",KR
+Kuwait,KW
+Kyrgyzstan,KG
+Lao People's Democratic Republic,LA
+Latvia,LV
+Lebanon,LB
+Lesotho,LS
+Liberia,LR
+Libya,LY
+Liechtenstein,LI
+Lithuania,LT
+Luxembourg,LU
+Macao,MO
+"Macedonia, the Former Yugoslav Republic of",MK
+Madagascar,MG
+Malawi,MW
+Malaysia,MY
+Maldives,MV
+Mali,ML
+Malta,MT
+Marshall Islands,MH
+Martinique,MQ
+Mauritania,MR
+Mauritius,MU
+Mayotte,YT
+Mexico,MX
+"Micronesia, Federated States of",FM
+"Moldova, Republic of",MD
+Monaco,MC
+Mongolia,MN
+Montenegro,ME
+Montserrat,MS
+Morocco,MA
+Mozambique,MZ
+Myanmar,MM
+Namibia,NA
+Nauru,NR
+Nepal,NP
+Netherlands,NL
+New Caledonia,NC
+New Zealand,NZ
+Nicaragua,NI
+Niger,NE
+Nigeria,NG
+Niue,NU
+Norfolk Island,NF
+Northern Mariana Islands,MP
+Norway,NO
+Oman,OM
+Pakistan,PK
+Palau,PW
+"Palestine, State of",PS
+Panama,PA
+Papua New Guinea,PG
+Paraguay,PY
+Peru,PE
+Philippines,PH
+Pitcairn,PN
+Poland,PL
+Portugal,PT
+Puerto Rico,PR
+Qatar,QA
+Reunion,RE
+Romania,RO
+Russian Federation,RU
+Rwanda,RW
+Saint Barthelemy,BL
+"Saint Helena, Ascension and Tristan da Cunha",SH
+Saint Kitts and Nevis,KN
+Saint Lucia,LC
+Saint Martin (French part),MF
+Saint Pierre and Miquelon,PM
+Saint Vincent and the Grenadines,VC
+Samoa,WS
+San Marino,SM
+Sao Tome and Principe,ST
+Saudi Arabia,SA
+Senegal,SN
+Serbia,RS
+Seychelles,SC
+Sierra Leone,SL
+Singapore,SG
+Sint Maarten (Dutch part),SX
+Slovakia,SK
+Slovenia,SI
+Solomon Islands,SB
+Somalia,SO
+South Africa,ZA
+South Georgia and the South Sandwich Islands,GS
+South Sudan,SS
+Spain,ES
+Sri Lanka,LK
+Sudan,SD
+Suriname,SR
+Svalbard and Jan Mayen,SJ
+Swaziland,SZ
+Sweden,SE
+Switzerland,CH
+Syrian Arab Republic,SY
+"Taiwan, Province of China",TW
+Tajikistan,TJ
+"Tanzania, United Republic of",TZ
+Thailand,TH
+Timor-Leste,TL
+Togo,TG
+Tokelau,TK
+Tonga,TO
+Trinidad and Tobago,TT
+Tunisia,TN
+Turkey,TR
+Turkmenistan,TM
+Turks and Caicos Islands,TC
+Tuvalu,TV
+Uganda,UG
+Ukraine,UA
+United Arab Emirates,AE
+United Kingdom,GB
+United States,US
+United States Minor Outlying Islands,UM
+Uruguay,UY
+Uzbekistan,UZ
+Vanuatu,VU
+"Venezuela, Bolivarian Republic of",VE
+Viet Nam,VN
+"Virgin Islands, British",VG
+"Virgin Islands, U.S.",VI
+Wallis and Futuna,WF
+Western Sahara,EH
+Yemen,YE
+Zambia,ZM
+Zimbabwe,ZW
+Asia Pacific,AP
+United Kingdom,UK
+European Union,EU
+Unknown,XX</value>
+  </data>
+</root>

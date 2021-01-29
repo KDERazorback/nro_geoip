@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NroIpDatabaseGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "/answers=answers_file.txt"
+    }
+  }
+}

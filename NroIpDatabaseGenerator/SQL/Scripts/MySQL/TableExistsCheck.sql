@@ -1,0 +1,1 @@
+﻿SELECT 0 FROM @o_tableName LIMIT 1;
